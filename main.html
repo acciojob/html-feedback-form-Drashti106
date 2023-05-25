@@ -10,7 +10,25 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+ <h1>Feedback Form</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" min="3" max="50" required>
+        </div>
+        <div>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" id="portfolio" name="portfolio" required>
+        </div>
+        <div>
+            <label for="favColor">Favorite Colour</label>
+            <input type="color" id="favColor" name="favColor">
+        </div>
+        <div>
+            <label for="likeness">How much do you like your color?</label>
+            <input type="range" id="likeness" name="likeness" min="1" max="100">
+        </div>
+    </form>
 </body>
 
 </html>
